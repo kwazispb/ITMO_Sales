@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d237819d-6275-4d8d-85be-be9a74229ebf">
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d578839e-b834-41aa-9b49-64de7175f2c7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="abaaa117-c708-4973-88d6-6c74c4481a15"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="661d56ae-5a15-42bd-a4ef-5ee4f134003b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="49030808-9be3-4326-8d1d-70c09c13c66a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="fee03dc5-979a-4afc-9f30-f60b08e35020"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="81cf4451-aaa6-46f8-8b8f-aa03a481f42d"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="27de260a-2806-4c97-b635-a109373ec29f">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
+  <roles>Role.ЧтениеКонтрагентов</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ПодсистемаНСИ</roles>
+  <roles>Role.Пользователь</roles>
+  <catalogs>Catalog.Контрагенты</catalogs>
+</mdclass:Configuration>
