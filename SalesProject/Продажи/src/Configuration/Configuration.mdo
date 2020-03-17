@@ -37,5 +37,16 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ПодсистемаНСИ</roles>
   <roles>Role.Пользователь</roles>
+  <roles>Role.ДобавлениеИзменениеНоменклатуры</roles>
+  <roles>Role.ЧтениеНоменклатуры</roles>
+  <roles>Role.ЧтениеПриобретенийТоваров</roles>
+  <roles>Role.ДобавлениеИзменениеПриобретений</roles>
+  <roles>Role.ПосистемаЗакупки</roles>
+  <roles>Role.ОтчетЗакупки</roles>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ПриобретениеТовара</documents>
+  <reports>Report.Закупки</reports>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
 </mdclass:Configuration>

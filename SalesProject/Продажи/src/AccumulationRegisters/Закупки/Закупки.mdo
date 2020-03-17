@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c061b1cb-c3ee-4000-b045-6a2eddb5634c">
+  <producedTypes>
+    <selectionType typeId="33b4499a-aecc-483a-bf4d-7cb0aa5ae845" valueTypeId="fd223c7a-f93e-4ccd-8174-fd19b8ef3f3c"/>
+    <listType typeId="79e170c3-0cc3-4481-a4b8-4f2eabc9cc51" valueTypeId="dc67d976-cfb4-467b-8b95-b01074f551a1"/>
+    <managerType typeId="9f524aea-6213-4166-98af-111ce850fabb" valueTypeId="53c89cec-cf28-40b4-951b-64582ea0e8d4"/>
+    <recordSetType typeId="ccefc161-642b-4568-840c-0357c3fae293" valueTypeId="fa34b023-9e4d-419b-bec7-9dd32e3cf2b3"/>
+    <recordKeyType typeId="4662bf92-818b-433f-978c-0a5a576d315a" valueTypeId="148d2bb5-f3d4-4dbf-8483-bf50779d9c17"/>
+    <recordType typeId="f073a00d-e133-4871-a41c-480ea40ce7c2" valueTypeId="a98e6e18-4b06-47d5-8db1-5ffef1b7c3e2"/>
+  </producedTypes>
+  <name>Закупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="7fb21c78-e560-4d36-b90b-a127d16d6768">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="be760ced-bf5c-4b54-a3a3-a026b5dffdcc">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c3fbf791-9543-48e3-a05c-c531ce529603">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5ce25aa6-74f4-4bf5-8cea-1f919915e002">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

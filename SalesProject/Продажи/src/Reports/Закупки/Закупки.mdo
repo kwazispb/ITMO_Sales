@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4e85465-60aa-459a-b4c3-7bd8f989e18b">
+  <producedTypes>
+    <objectType typeId="699605d5-e060-4f3f-9556-03fff63cb930" valueTypeId="0ad59b05-2e65-4d96-9176-837da5cbf260"/>
+    <managerType typeId="9edc1d2a-34cb-4f0f-9ff2-17810fd81b0b" valueTypeId="acb65e98-086c-4f8e-831c-4838b5af4fdd"/>
+  </producedTypes>
+  <name>Закупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>
